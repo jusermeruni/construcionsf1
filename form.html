@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<title>Mi Formulario</title>
+</head>
+<body>
+    <h1>Registro basico oferta de trabajo</h1>
+
+    <form action="">
+        <label for="first name">
+            <span>Firts Name</span>
+            <input type="text" id="firstname" name="name" required placeholder="Aqui el nombre" autocomplete="name">
+        </label>
+    
+        <label for="last name">
+            <span>Last Name</span>
+            <input type="text" id="lastname" name="name" required placeholder="Aqui apellidos" autocomplete="name">
+        </label>
+        
+        <datalist id="cursos">
+            <option value="C.C"></option>
+            <option value="C.E"></option>
+            <option value="Pastport"></option>
+    
+        </datalist>
+        <label for="">
+            <span>Document Tipe</span>
+            <input list="cursos">
+        </label>
+        
+
+        <label for="Doccuments">
+            <span>Document</span>
+            <input type="number" id="Document" name="name" required placeholder="Numero de documento" autocomplete="Documento">
+        </label>    
+
+        <label for="begin-date">
+            <span>Fecha de nacimiento</span>
+            <input type="date" id="begin-date">
+        </label>
+
+        <h1>registro referido personal</h1>
+        <label for="first name">
+            <span>Firts Name</span>
+            <input type="text" id="rfirstname" name="name" required placeholder="Aqui el nombre" autocomplete="name">
+        </label>
+    
+        <label for="last name">
+            <span>Last Name</span>
+            <input type="text" id="rlastnameR" name="name" required placeholder="Aqui apellidos" autocomplete="name">
+        </label>
+
+        <label for="phone">
+            <span>contac phone</span>
+            <input type="number" id="rlastnameR" name="name" required placeholder="Num phone" autocomplete="tel">
+        </label>
+        <h1>ultima empresa donde laboro</h1>
+        <label for="Uempresa">
+            <span>Nombre de la empresa</span>
+            <input type="text" id="nombreenpresau" name="name" required placeholder="Nombre de la Empresa">
+        </label>
+        <label for="begin-date">
+            <span>Fecha de retiro</span>
+            <input type="date" id="fretiro">
+        </label>
+        <input type="submit">
+        
+    </form>
+</body>
