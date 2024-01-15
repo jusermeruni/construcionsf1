@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 10px;
+}
+body {
+    margin: 20px; /* Establece un margen de 20 píxeles en todos los lados del cuerpo de la página */
+}
+.margen{
+    background: lightslategray;
+    min-height: 200px;
+    display: grid;
+    grid-template-columns: repeat(5,300px);
+}
+.imagen1 {
+    width: 200px;
+    height: auto;
+    background: red;   
+  }
+.tituloprincipal{
+    color: red;
+    background: aqua;
+    min-height: 50px;
+    display: grid;
+    justify-items: center;
+}
+
+
